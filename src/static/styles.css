@@ -433,7 +433,8 @@ button {
 }
 
 .close-modal,
-.close-login-modal {
+.close-login-modal,
+.close-announcements-modal {
   position: absolute;
   right: 12px;
   top: 8px;
@@ -441,6 +442,9 @@ button {
   cursor: pointer;
   color: var(--text-secondary);
   line-height: 1;
+  background: none;
+  border: none;
+  padding: 0;
 }
 
 /* Login modal specific styling */
